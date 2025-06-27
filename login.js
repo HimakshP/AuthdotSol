@@ -3,7 +3,7 @@ import { resolve } from "@bonfida/spl-name-service";
 import bs58 from "bs58";
 
 const connection = new Connection(
-  "https://mainnet.helius-rpc.com/?api-key=521ac8a4-be7b-4f47-b49c-9cdfa9cb770f"
+  "mainnet-rpc-url"
 );
 
 document.getElementById("loginBtn").addEventListener("click", async () => {
